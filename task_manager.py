@@ -18,7 +18,8 @@ FR-6: Exit safely at any time
 import json
 import os
 
-DATA_FILE = "tasks.json"
+DATA_FILE = "tasks.json" 
+# //task data will be stored in this file
 
 
 def load_tasks():
