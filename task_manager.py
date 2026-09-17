@@ -22,7 +22,8 @@ DATA_FILE = "tasks.json"
 # //task data will be stored in this file
 
 
-def load_tasks():
+def load_tasks(): 
+    # //load tasks from the JSON file if it exists, otherwise start empty.
     """Load tasks from the JSON file if it exists, otherwise start empty."""
     if os.path.exists(DATA_FILE):
         try:
