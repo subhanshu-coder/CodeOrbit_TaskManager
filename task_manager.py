@@ -15,7 +15,8 @@ FR-5: Validate all input; never crash on bad input
 FR-6: Exit safely at any time
 """
 
-import json
+import json  
+# //json module is used to read and write task data in JSON format
 import os
 
 DATA_FILE = "tasks.json" 
