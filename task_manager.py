@@ -146,14 +146,14 @@ def main():
     """Main program loop: shows the menu and routes to the right action."""
     tasks = load_tasks()
 
-    # while True:
-    #     print_menu()
-    #     choice = input("Choose an option (1-6): ").strip()
+    while True:
+        print_menu()
+        choice = input("Choose an option (1-6): ").strip()
 
-    #     if choice == "1":
-    #         add_task(tasks)
-    #     elif choice == "2":
-    #         view_tasks(tasks)
+        if choice == "1":
+            add_task(tasks)
+        elif choice == "2":
+            view_tasks(tasks)
         elif choice == "3":
             complete_task(tasks)
         elif choice == "4":
