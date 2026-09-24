@@ -5,6 +5,7 @@ Development Internship (Task 2: Simple CLI-Based Application).
 
 This project implements the requirements defined in the accompanying
 SRS document (Task 1) for a Personal Task Manager.
+document are important before submitting
 
 ## Features
 
