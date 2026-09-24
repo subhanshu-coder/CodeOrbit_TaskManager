@@ -9,13 +9,13 @@ document are important before submitting
 
 ## Features
 
-- Add a task
+<!-- - Add a task
 - View all tasks with their status (Pending / Completed)
 - Mark a task as completed
 - Delete a task
 - Search tasks by keyword
 - Exit safely at any time
-- Tasks are saved to `tasks.json` so they persist between runs
+- Tasks are saved to `tasks.json` so they persist between runs -->
 - Input is validated throughout — invalid input never crashes the app
 
 ## How to Run
