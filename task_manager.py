@@ -160,11 +160,11 @@ def main():
             delete_task(tasks)
         elif choice == "5":
             search_task(tasks)
-        elif choice == "6":
-            print("Goodbye! Your tasks have been saved.")
-            break
-        else:
-            print("Invalid choice. Please enter a number from 1 to 6.")
+        # elif choice == "6":
+        #     print("Goodbye! Your tasks have been saved.")
+        #     break
+        # else:
+        #     print("Invalid choice. Please enter a number from 1 to 6.")
 
 
 if __name__ == "__main__":
