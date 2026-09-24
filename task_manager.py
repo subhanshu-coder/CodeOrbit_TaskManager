@@ -38,7 +38,8 @@ def load_tasks():
 
 
 def save_tasks(tasks):
-    """Save the current task list to the JSON file."""
+    # """Save the current task list to the JSON file.""" 
+    # //save the current task list to the JSON file
     try:
         with open(DATA_FILE, "w") as f:
             json.dump(tasks, f, indent=2)
@@ -47,7 +48,8 @@ def save_tasks(tasks):
 
 
 def print_menu():
-    """Display the main menu options to the user."""
+    # """Display the main menu options to the user."""
+    # //display the main menu options to the user
     print("\n===== PERSONAL TASK MANAGER =====")
     print("1. Add Task")
     print("2. View Tasks")
