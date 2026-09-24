@@ -15,8 +15,8 @@ document are important before submitting
 - Delete a task
 - Search tasks by keyword
 - Exit safely at any time
-- Tasks are saved to `tasks.json` so they persist between runs
-- Input is validated throughout — invalid input never crashes the app
+<!-- - Tasks are saved to `tasks.json` so they persist between runs
+- Input is validated throughout — invalid input never crashes the app -->
 
 ## How to Run
 
