@@ -1,7 +1,7 @@
 # Personal Task Manager (CLI)
 
-<!-- A simple command-line task manager built for the CodeOrbit Tech Software
-Development Internship (Task 2: Simple CLI-Based Application). -->
+A simple command-line task manager built for the CodeOrbit Tech Software
+Development Internship (Task 2: Simple CLI-Based Application).
 
 This project implements the requirements defined in the accompanying
 SRS document (Task 1) for a Personal Task Manager.
