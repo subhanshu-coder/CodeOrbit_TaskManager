@@ -27,6 +27,7 @@ def load_tasks():
     # //load tasks from the JSON file if it exists, otherwise start empty.
     """Load tasks from the JSON file if it exists, otherwise start empty."""
     if os.path.exists(DATA_FILE):
+        # //data file exists, try to read it
         try:
             with open(DATA_FILE, "r") as f:
                 return json.load(f)
