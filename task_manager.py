@@ -154,11 +154,11 @@ def main():
             add_task(tasks)
         elif choice == "2":
             view_tasks(tasks)
-        # elif choice == "3":
-        #     complete_task(tasks)
-        # elif choice == "4":
-        #     delete_task(tasks)
-        # elif choice == "5":
+        elif choice == "3":
+            complete_task(tasks)
+        elif choice == "4":
+            delete_task(tasks)
+        elif choice == "5":
             search_task(tasks)
         elif choice == "6":
             print("Goodbye! Your tasks have been saved.")
