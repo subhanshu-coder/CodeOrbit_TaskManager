@@ -132,14 +132,14 @@ def search_task(tasks):
         print("Search keyword cannot be empty.")
         return
 
-    matches = [t for t in tasks if keyword in t["description"].lower()]
-    if not matches:
-        print(f"No tasks found matching \"{keyword}\".")
-        return
+    # matches = [t for t in tasks if keyword in t["description"].lower()]
+    # if not matches:
+    #     print(f"No tasks found matching \"{keyword}\".")
+    #     return
 
-    print(f"\n--- Tasks matching \"{keyword}\" ---")
-    for i, task in enumerate(matches, start=1):
-        print(f"{i}. [{task['status']}] {task['description']}")
+    # print(f"\n--- Tasks matching \"{keyword}\" ---")
+    # for i, task in enumerate(matches, start=1):
+    #     print(f"{i}. [{task['status']}] {task['description']}")
 
 
 def main():
